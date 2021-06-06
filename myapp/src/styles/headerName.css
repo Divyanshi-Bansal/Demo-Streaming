@@ -1,0 +1,13 @@
+.header{
+    background-color: rgba(0, 0, 0, 0.7);
+    /* margin-top: 0px;
+    padding-top: 0; */
+}
+.heading-1{
+    color: white;
+    margin-top: 0px;
+    padding-top: 0;
+    justify-content:space-between;
+    padding: 10px;
+    padding-left: 100px;
+}
