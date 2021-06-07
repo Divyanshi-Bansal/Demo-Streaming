@@ -7,3 +7,28 @@
 .boxes-link{
     text-decoration: none;
 }
+
+
+@media (max-width:1245px){
+    .boxes{
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        
+    }
+}
+
+@media (max-width:963px){
+    .boxes{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        
+    }
+}
+
+@media (max-width:627px){
+    .boxes{
+        display: grid;
+        grid-template-columns: 50%;
+        
+    }
+}

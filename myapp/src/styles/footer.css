@@ -44,3 +44,32 @@
     padding: 7px;
     padding-bottom: 10px;
 }
+
+@media screen and (max-width:754px) {
+    .ul{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        margin: 20px;    
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 20px;
+        text-align: center;
+    }
+    .ul a{
+        text-decoration: none; 
+        padding: 6px;
+        margin: 6px;
+    }
+    .footer{
+        background-color: #1F2833;
+        color: white;
+        margin-bottom: 0px;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

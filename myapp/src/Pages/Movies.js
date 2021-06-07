@@ -7,11 +7,6 @@ import '../styles/home.css';
 import Series from './Series';
 
 
-
-// {movies.length>0?(movies.map(element => {
-    // return <Box  title={element.programType} image={element.url}/>
-// })): <p>Loading...</p>}
-
 function Movies(){
     const [movies,setMovies]=useState([]);
     const getMovies=()=>{
@@ -38,11 +33,11 @@ function Movies(){
 
   // console.log(`{$.movies.entries.images}`);
 
-  // const filteredMovies = () =>{
-  //     movies.entries.
-  // };
   const entries = movies.entries;
   const filtered = Object.values(entries).filter(function(entries) { return entries.releaseYear >= '2010' && entries.programType.includes("movie")});
+  filtered.sort(function (a, b) {
+    return a.title> b.title;
+  })
 
     return(
         <React.Fragment>
@@ -50,7 +45,7 @@ function Movies(){
         <HeaderName title='Movies'/>
         <div className='boxes'>
           {filtered.length>0?(filtered.map(element => {
-            return <Box  title={element.programType} image={element.images.PosterArt.url}/>
+            return <Box name={element.title} title={element.programType} image={element.images.PosterArt.url}/>
           })): <p>Loading...</p>}
         </div>
         <Footer/>
