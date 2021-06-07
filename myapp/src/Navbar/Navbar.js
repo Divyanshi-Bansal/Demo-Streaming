@@ -6,7 +6,7 @@ import '../styles/navbar.css';
 function Navbar(){
     return (
         <div className='main'>
-            <h1 className='heading'>DEMO Streaming</h1>
+            <h2 className='heading'>DEMO Streaming</h2>
             <div className='link'>
             <a className='login'  href='#'>Login</a>
             <button className='btn'>Start your free trial</button>

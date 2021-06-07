@@ -1,5 +1,6 @@
 .footer{
-    background-color: rgba(0, 0, 0, 0.8);
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    background-color: #1F2833;
     color: white;
     
 }
@@ -24,11 +25,22 @@
 .footer-links{
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    /* margin: 10px; */
     padding-left: 45px;
     justify-content: space-between;
 }
 .icons a{
     padding: 10px;
     margin: 10px;
+    text-decoration: none;
+}
+.icons a i{
+    height: 30px;
+    padding: 10px;
+}
+.image{
+    height: 62px;
+    margin-bottom: 10px;
+    padding: 7px;
+    padding-bottom: 10px;
 }

@@ -1,4 +1,9 @@
 .boxes{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+    
+}
+.boxes-link{
+    text-decoration: none;
 }
