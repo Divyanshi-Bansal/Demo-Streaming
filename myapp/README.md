@@ -71,12 +71,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ### FAQ:-
-1.How did you decide on the technical and architectural choices used as part of your solution?
+
+# 1.How did you decide on the technical and architectural choices used as part of your solution?
 Ans: As React is open-sourceand the most popular Front end Javascript Library for building user interface or UI components. It provides reauability of components. Its architecture is easy to understand because of components. That's why I decided to choose React as my Front end library for this Assignment.
 
-2.Are there any improvements you could make to your submission?
+# 2.Are there any improvements you could make to your submission?
 Ans: Yes there is nothing all perfect. This UI need of some improvements . We can connect database for data and get the data by queirs. Also Depoly on Heroku.
 
-3.What would you do differently if you were allocated more time?
+# 3.What would you do differently if you were allocated more time?
 Ans:If alloted more time i would definitely make a backend using node.js for this Front end where i can just hanlde different routes for login and movies and series page and sending details of the movies and series as per the user interests. 
 
