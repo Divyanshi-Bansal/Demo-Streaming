@@ -8,23 +8,23 @@ import '../styles/home.css';
 function Series(){
     const [series,setSeries]=useState([]);
     const getSeries=()=>{
-        fetch(`${process.env.PUBLIC_URL}/feed/morr-sample.json`
-        ,{
-        headers : { 
+        fetch(`${process.env.PUBLIC_URL}/feed/morr-sample.json`,
+        {
+          headers : { 
             'Content-Type': 'application/json',
             'Accept': 'application/json'
-        }
+          }
         }
         )
-        .then(function(response){
-            console.log(response)
+          .then(function(response){
+            // console.log(response)
             return response.json();
-        })
-        .then(function(myJson) {
-            console.log(myJson);
+          })
+          .then(function(myJson) {
+            // console.log(myJson);
             setSeries(myJson)
-        });
-    }
+          });
+      }
     useEffect(()=>{
         getSeries()
     },[])
