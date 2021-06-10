@@ -8,7 +8,7 @@ import '../styles/home.css';
 function Series(){
     const [series,setSeries]=useState([]);
     const getSeries=()=>{
-        fetch('../feed/morr-sample.json'
+        fetch(`${process.env.PUBLIC_URL}/feed/morr-sample.json`
         ,{
         headers : { 
             'Content-Type': 'application/json',
