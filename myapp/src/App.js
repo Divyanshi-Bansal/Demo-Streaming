@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/Demo-Streaming/myapp" component={Home}></Route>
+        <Route exact path="/Demo-Streaming" component={Home}></Route>
         <Route exact path="/series" component={Series}></Route>
         <Route exact path="/movies" component={Movies}></Route>
       </Switch>
